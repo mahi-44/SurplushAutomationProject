@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Surplush Suite">
+
+	<listeners>
+		<listener class-name="surplushutility.ListenerUtility" />
+	</listeners>
+
+	<test name="Surplush Tests">
+
+		<classes>
+
+			<class name="cm.surplush.CreateOrderTest.CreateBasketOrderTest" />
+
+			<class name="cm.surplush.CreateOrderTest.createBasketFinalOrderTest" />
+
+			<class name="cm.surplush.CreateOrderTest.CreateAccountPersistenceTest" />
+
+			<class name="com.srplush.LoginTest.CreateAddToBasketConfirmationTest" />
+			
+			<class name="com.srplush.LoginTest.CreateBasketCheckoutCarryOverTest" />
+			
+			<class name="com.srplush.LoginTest.CreateProductDetailsPageTest" />
+			
+			<class name="com.surplush.PaymentTest.CreateDataPersistenceTest" />
+			
+			<class name="com.surplush.PaymentTest.CreateDeliveryAreaValidationTest" />
+			
+			<class name="com.surplush.PaymentTest.CreateMultipleItemscheckOutTest" />
+
+
+		</classes>
+
+	</test>
+
+</suite>
